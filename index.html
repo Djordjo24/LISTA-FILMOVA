@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>MOVIE LIST</title>
+</head>
+<body>
+	<h1>MOVIE LIST</h1>
+	<div class="container">
+		<div id="film">
+			<img id="img" src="img/Zatvor.jpg">
+			<h2 class="price">$30</h2>
+			<button onclick="addToCart(this)" class="pick">WATCH</button>
+			<h2 class="name">The Shawshank<br>Redemption</h2>
+			<p>Drama<br>1994/2h22min</p>
+			<h2>Reting 9.3</h2>
+		</div>
+		<div id="film">
+			<img id="img" src="img/List.jpg">
+			<h2 class="price">$27</h2>
+			<button onclick="addToCart(this)" class="pick">WATCH</button>
+			<h2 class="name">Schindler's List</h2>
+			<p>Biography/Drama/History<br>1993/3h15min</p>
+			<h2>Reting 9.0</h2>
+		</div>
+		<div id="film">
+			<img id="img" src="img/Fight-Club.jpg">
+			<h2 class="price">$25</h2>
+			<button onclick="addToCart(this)" class="pick">WATCH</button>
+			<h2 class="name">Fight Club</h2>
+			<p>Drama<br>1999/2h19min</p>
+			<h2>Reting 8.8</h2>
+		</div>
+		<div id="film">
+			<img id="img" src="img/1917.jpg">
+			<h2 class="price">$20</h2>
+			<button onclick="addToCart(this)" class="pick">WATCH</button>
+			<h2 class="name">1917</h2>
+			<p>Action/Drama/War<br>2019/1h59min</p>
+			<h2>Reting 8.2</h2>
+		</div>
+	</div>
+	<div class="korpa">
+		<h1>Total price:</h1>
+		<div class="stavke">
+			<button onclick="removeFromCart(this)" class="nextMove">Remove<br>x</button>
+			<div class="cena"></div>
+			<button onclick="payPage(this)" class="nextMove">Buy<br>✓</button>
+		</div>
+	</div>
+
+
+	<script src="script.js"></script>
+
+</body>
+</html>
